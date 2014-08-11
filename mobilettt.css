@@ -1,0 +1,119 @@
+/* Tic Tac Toe Grid Borders */
+#TL {
+    border-right: solid black 5px;
+    border-bottom: solid black 5px;
+}
+#TM {
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-bottom: solid black 5px;
+}
+#TR {
+    border-left: solid black 5px;
+    border-bottom: solid black 5px;
+}
+#ML {
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-bottom: solid black 5px;
+}
+#MM {
+    border: solid black 5px;
+}
+#MR {
+    border-left: solid black 5px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+}
+#BL {
+    border-right: solid black 5px;
+    border-top: solid black 5px;
+}
+#BM {
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    border-top: solid black 5px;
+}
+#BR {
+    border-left: solid black 5px;
+    border-top: solid black 5px;
+}
+#field {
+    vertical-align: middle;
+    margin: 20px;
+}
+#start {
+    width: 926px;
+    height:150px;
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+    background-color: beige;
+}
+#beginGame {
+    height: 75px;
+    background-color: pink;
+    font-size: 50px;
+    margin-top: 4px;
+}
+#player1 {
+    color: teal;
+    text-align: center;
+}
+#player2 {
+    color: coral;
+    text-align: center;
+}
+#gameDirections {
+    font-size: 100px;
+    vertical-align: middle;
+    margin: 0px;
+}
+#gameWinner {
+    font-size: 80px;
+    vertical-align: middle;
+    margin: 0px;
+}
+#playAgain {
+    width: 400px;
+    height: 50px;
+    background-color: beige;
+    font-size: 30px;
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+}
+table {
+    border-spacing: 0;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+td {
+    font-size: 150px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: verdana;
+    vertical-align: middle;
+}
+h3 {
+    font-family: verdana;
+}
+button {
+    width: 926px;
+    height: 150px;
+    font-family: verdana;
+    font-size: 100px;
+    text-align: center;
+    border: none;
+}
+input {
+    width: 90px;
+    height: 75px;
+    font-size: 50px;
+    border: none;
+    background-color: beige;
+}
