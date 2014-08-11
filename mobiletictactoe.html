@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="mobilettt.css">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div id="field">
+            <br><div id="start"><button onclick="start()">Start Game</button></div><br>
+            <table onmousedown="check_coords(event)" id="table">
+                <tr></tr>
+                    <td id="TL">X</td>
+                    <td id="TM">O</td>
+                    <td id="TR">X</td>
+                <tr></tr>
+                    <td id="ML">O</td>
+                    <td id="MM">X</td>
+                    <td id="MR">O</td>
+                <tr></tr>
+                    <td id="BL">X</td>
+                    <td id="BM">O</td>
+                    <td id="BR">X</td>
+            </table>
+        </div>
+        <script src="mobilettt.js"></script>
+    </body>
+</html>
